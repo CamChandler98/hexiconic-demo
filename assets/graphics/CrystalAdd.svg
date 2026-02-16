@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" xmlns:bx="https://boxy-svg.com">
+  <g>
+    <path d="M 167.788 33.651 H 332.213 V 167.788 H 466.349 V 332.213 H 332.213 V 466.349 H 167.788 V 332.213 H 33.651 V 167.788 H 167.788 Z" bx:shape="cross 33.651 33.651 432.698 432.698 164.425 164.425 0.5 1@4396ad24" style="fill: rgb(232, 236, 255); stroke: rgb(78, 109, 196); stroke-linejoin: round; stroke-width: 12px;"/>
+    <path d="M 472.652 329.314 L 334.445 245.032 L 462.712 170.644 M 34.453 169.87 L 169.355 243.841 L 38.538 327.458" style="stroke-linejoin: round; fill: none; stroke-width: 12px; stroke: rgb(78, 109, 196); stroke-opacity: 0.49;"/>
+    <path d="M 247.188 332.486 L 167.073 244.571 L 249.317 172.987 L 334.665 247.71 L 247.188 332.486 Z" style="fill: none; stroke-linejoin: round; transform-origin: 253.213px 261.969px; stroke-width: 12px; stroke: rgb(78, 109, 196); stroke-opacity: 0.49;"/>
+    <path d="M 248.763 331.39 L 330.437 466.2 L 167.088 466.2 L 248.763 331.39 Z" bx:shape="triangle 167.088 331.39 163.349 134.81 0.5 0 1@18ec3d31" style="stroke-linejoin: round; fill: none; stroke-width: 12px; stroke: rgb(78, 109, 196); stroke-opacity: 0.49;"/>
+    <path d="M -250.376 -170.79 L -168.701 -35.98 L -332.05 -35.98 L -250.376 -170.79 Z" bx:shape="triangle -332.05 -170.79 163.349 134.81 0.5 0 1@25c2a5ab" style="stroke-linejoin: round; fill: none; transform-box: fill-box; transform-origin: 50% 50%; stroke-width: 12px; stroke-opacity: 0.49; stroke: rgb(78, 109, 196);" transform="matrix(-1, 0, 0, -1, 500.750984, 206.769974)"/>
+    <path d="M 383.258 32.716 L 398.396 94.965 L 462.548 109.654 L 398.396 124.343 L 383.258 186.592 L 368.12 124.343 L 303.968 109.654 L 368.12 94.965 Z" bx:shape="star 383.258 109.654 79.29 76.938 0.27 4 1@045780cf" style="stroke-linejoin: round; stroke-width: 1.5px; fill: rgb(254, 215, 106);"/>
+    <path d="M 109.975 319.743 L 119.096 357.252 L 157.751 366.103 L 119.096 374.954 L 109.975 412.463 L 100.854 374.954 L 62.199 366.103 L 100.854 357.252 Z" bx:shape="star 109.975 366.103 47.776 46.36 0.27 4 1@2994f2b7" style="stroke-linejoin: round; stroke-width: 1.5; fill: rgb(254, 215, 106);"/>
+    <path d="M 378.46 328.047 L 389.16 372.046 L 434.504 382.429 L 389.16 392.812 L 378.46 436.811 L 367.76 392.812 L 322.416 382.429 L 367.76 372.046 Z" bx:shape="star 378.46 382.429 56.044 54.382 0.27 4 1@8a9a4049" style="stroke-linejoin: round; stroke-width: 1.5; fill: rgb(254, 215, 106);"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500px" height="500px" viewBox="0 0 500 500">
+  <g id="object-0" style="" transform="matrix(1.04939, 0, 0, 1.051612, -15.654647, -12.451859)">
+    <path d="M 167.788 33.651 H 332.213 V 167.788 H 466.349 V 332.213 H 332.213 V 466.349 H 167.788 V 332.213 H 33.651 V 167.788 H 167.788 Z" style="fill: rgb(232, 236, 255); stroke: rgb(78, 109, 196); stroke-linejoin: round; stroke-width: 33px;"/>
+    <path d="M 472.652 329.314 L 358.473 247.94 L 462.712 170.644 M 34.453 169.87 L 147.096 247.274 L 38.538 327.458" style="fill: none; stroke: rgb(78, 109, 196); stroke-opacity: 0.49; stroke-width: 25px;"/>
+    <path d="M 249.262 346.583 L 319.184 466.426 L 179.34 466.426 L 249.262 346.583 Z" style="fill: none; stroke: rgb(78, 109, 196); stroke-opacity: 0.49; stroke-width: 25px;"/>
+    <path d="M -249.245 -164.53 L -172.921 -34.301 L -325.57 -34.301 L -249.245 -164.53 Z" style="fill: none; stroke-opacity: 0.49; stroke: rgb(78, 109, 196); stroke-width: 25px;" transform="matrix(-1, 0, 0, -1, 0, 0)"/>
+    <path d="M 249.068 337.187 L 149.016 245.732 L 248.847 173.457 L 361.012 246.52 L 249.068 337.187 Z" style="fill: none; stroke: rgb(78, 109, 196); stroke-opacity: 0.49; stroke-width: 25px;">
+      <title>TopFace</title>
+    </path>
+    <path d="M 385.964 24.526 L 404.847 102.174 L 484.869 120.497 L 404.847 138.82 L 385.964 216.468 L 367.081 138.82 L 287.059 120.497 L 367.081 102.174 Z" style="stroke-linejoin: round; fill: rgb(254, 215, 106); stroke-width: 32px;"/>
+  </g>
+</svg>
