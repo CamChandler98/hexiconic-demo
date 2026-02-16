@@ -3,6 +3,11 @@ import { ExpoConfig } from "expo/config";
 const config: ExpoConfig = {
   name: "Hexiconic",
   slug: "word-app",
+  experiments: {
+    baseUrl: "/word-app-demo",
+    typedRoutes: true,
+    reactCompiler: true,
+  },
 
   // ✅ Marketing version (user-facing)
   version: "1.0.0",
@@ -79,11 +84,6 @@ const config: ExpoConfig = {
       },
     ],
   ],
-
-  experiments: {
-    typedRoutes: true,
-    reactCompiler: true,
-  },
 
   extra: {
     router: {},
