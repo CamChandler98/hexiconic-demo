@@ -4,7 +4,7 @@ const config: ExpoConfig = {
   name: "Hexiconic",
   slug: "word-app",
   experiments: {
-    baseUrl: "/word-app-demo",
+    baseUrl: "/hexiconic-demo",
     typedRoutes: true,
     reactCompiler: true,
   },
