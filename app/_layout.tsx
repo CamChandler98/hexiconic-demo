@@ -1,5 +1,6 @@
 import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
+import { StartScreenLoading } from "./components/StartMenu/StartScreenLoading";
 import { CurrencyProvider } from "./context/CurrencyContext";
 import { DailyRewardProvider } from "./context/DailyRewardContext";
 import { PuzzleProvider } from "./context/PuzzleContext"; // Import the provider
@@ -13,7 +14,7 @@ export default function RootLayout() {
   });
 
   if (!fontsLoaded) {
-    return null; // or a splash / loading screen
+    return <StartScreenLoading />;
   }
   return (
     <SoundSettingsProvider>
