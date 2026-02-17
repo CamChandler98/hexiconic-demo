@@ -2,6 +2,7 @@ import { Colors } from "@/theme/colors";
 import React from "react";
 import {
   Linking,
+  Platform,
   Pressable,
   StyleProp,
   StyleSheet,
@@ -89,12 +90,12 @@ export const ScreenFooter = ({
 const styles = StyleSheet.create({
   container: {
     width: "100%",
-    height: 56,
+    minHeight: 88,
     paddingHorizontal: 25,
+    paddingTop: 4,
     justifyContent: "center",
     alignItems: "center",
-    paddingBottom: 120,
-    // marginBottom: 30,
+    paddingBottom: Platform.OS === "web" ? 28 : 14,
     marginTop: 8,
   },
   linkRow: {

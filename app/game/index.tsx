@@ -2,7 +2,14 @@ import { usePuzzleContext } from "@/app/context/PuzzleContext"; // Import hook
 import { Layout } from "@/theme/layout";
 import { Redirect, useFocusEffect, useRouter } from "expo-router";
 import { useCallback, useEffect, useRef } from "react";
-import { Animated, BackHandler, Easing, Platform, View } from "react-native";
+import {
+  Animated,
+  BackHandler,
+  Easing,
+  Platform,
+  StyleSheet,
+  View,
+} from "react-native";
 import { GameInterfaceContainer } from "../components/GameInterface/GameInterfaceContainer";
 import { ScreenFooter } from "../components/General/ScreenFooter";
 
@@ -64,11 +71,13 @@ export default function GameScreen() {
   return (
     <View style={Layout.screen}>
       <Animated.View
-        style={{
-          flex: 1,
-          opacity: entryOpacity,
-          transform: [{ scale: entryScale }],
-        }}
+        style={[
+          styles.content,
+          {
+            opacity: entryOpacity,
+            transform: [{ scale: entryScale }],
+          },
+        ]}
       >
         <GameInterfaceContainer puzzle={currentPuzzle} />
         <ScreenFooter />
@@ -76,3 +85,9 @@ export default function GameScreen() {
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  content: {
+    flex: 1,
+  },
+});

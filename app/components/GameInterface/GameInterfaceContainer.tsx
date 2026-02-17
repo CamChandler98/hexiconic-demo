@@ -48,6 +48,7 @@ import { WordRewardToast, type WordRewardToastStreak } from "./WordRewardToast";
 
 import { getHintLetterCost, getRerollCost } from "@/app/Utility/completion";
 import { darkenColor } from "@/app/Utility/ui";
+import { ScreenFooter } from "react-native-screens";
 import { useHintProgress } from "./hooks/useHintProgress";
 import { useWordStreak } from "./hooks/useWordStreak";
 import StreakIndicator from "./StreakIndicator";
@@ -852,6 +853,8 @@ export const GameInterfaceContainer = ({
       />
       {flyPoints.AnimatedNode}
       {flyGems.AnimatedNode}
+
+      <ScreenFooter />
     </View>
   );
 };
