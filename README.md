@@ -148,14 +148,18 @@ This structure allows:
 
 ## Visuals
 
-> Screenshots and gifs coming soon
+Play Store screenshots:
 
-Planned:
+<p align="center">
+  <img src="assets/images/playstore_raw/hexiconic_screenshot_main_phone.png" alt="Main puzzle screen on phone" width="220" />
+  <img src="assets/images/playstore_raw/hexiconic_screenshot_wordlist_phone.png" alt="Word list view on phone" width="220" />
+  <img src="assets/images/playstore_raw/hexiconic_screenshot_hint_phone.png" alt="Hint reveal screen on phone" width="220" />
+</p>
 
-- Puzzle gameplay
-- Hint reveal animation
-- Completion screen
-- Chapter progression UI
+<p align="center">
+  <img src="assets/images/playstore_raw/hexiconic_screenshot_progress_phone.png" alt="Progress screen on phone" width="220" />
+  <img src="assets/images/playstore_raw/hexiconic_screenshot_reward_phone.png" alt="Reward screen on phone" width="220" />
+</p>
 
 ## Current Focus / Next Steps
 
