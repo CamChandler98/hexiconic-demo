@@ -11,7 +11,6 @@ import {
   View,
 } from "react-native";
 import { GameInterfaceContainer } from "../components/GameInterface/GameInterfaceContainer";
-import { ScreenFooter } from "../components/General/ScreenFooter";
 
 export default function GameScreen() {
   // 1. Get the puzzle directly from context
@@ -80,7 +79,7 @@ export default function GameScreen() {
         ]}
       >
         <GameInterfaceContainer puzzle={currentPuzzle} />
-        <ScreenFooter />
+        {/* <ScreenFooter /> */}
       </Animated.View>
     </View>
   );
