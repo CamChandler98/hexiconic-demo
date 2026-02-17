@@ -853,7 +853,7 @@ export const GameInterfaceContainer = ({
       {flyPoints.AnimatedNode}
       {flyGems.AnimatedNode}
 
-      {/* <ScreenFooter /> */}
+      <ScreenFooter />
     </View>
   );
 };
