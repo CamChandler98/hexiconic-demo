@@ -5,7 +5,7 @@ import {
   SUPPORT_EMAIL,
 } from "@/constants/appInfo";
 import { Colors } from "@/theme/colors";
-import { Head, Link, Stack } from "expo-router";
+import { Link, Stack } from "expo-router";
 import { Linking, Pressable, ScrollView, StyleSheet, View } from "react-native";
 
 const SUPPORT_SUBJECT = encodeURIComponent(`${APP_NAME} support`);
@@ -19,13 +19,6 @@ export default function HexiconicSupportPage() {
 
   return (
     <>
-      <Head>
-        <title>{`${APP_NAME} Support`}</title>
-        <meta
-          name="description"
-          content={`Contact ${APP_NAME} support for bugs, feedback, or help.`}
-        />
-      </Head>
       <Stack.Screen options={{ title: `${APP_NAME} Support` }} />
       <ScrollView
         style={styles.screen}

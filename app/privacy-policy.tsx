@@ -6,7 +6,7 @@ import {
   SUPPORT_PATH,
 } from "@/constants/appInfo";
 import { Colors } from "@/theme/colors";
-import { Head, Link, Stack } from "expo-router";
+import { Link, Stack } from "expo-router";
 import { Linking, Pressable, ScrollView, StyleSheet, View } from "react-native";
 
 const PRIVACY_SUBJECT = encodeURIComponent(`${APP_NAME} privacy question`);
@@ -20,13 +20,6 @@ export default function PrivacyPolicyPage() {
 
   return (
     <>
-      <Head>
-        <title>{`${APP_NAME} Privacy Policy`}</title>
-        <meta
-          name="description"
-          content={`Read the ${APP_NAME} privacy policy and contact information.`}
-        />
-      </Head>
       <Stack.Screen options={{ title: `${APP_NAME} Privacy Policy` }} />
       <ScrollView
         style={styles.screen}
